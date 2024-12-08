@@ -1,0 +1,5 @@
+dependencies {
+    implementation(project(":stream-core:usecase"))
+    runtimeOnly(project(":stream-core:service"))
+    implementation("org.springframework.boot:spring-boot-starter-web")
+}

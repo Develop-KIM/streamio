@@ -1,0 +1,6 @@
+dependencies {
+    implementation(project(":stream-core:usecase"))
+    implementation(project(":stream-core:port"))
+    runtimeOnly(project(":stream-adapter:http"))
+    implementation("org.springframework:spring-context")
+}
